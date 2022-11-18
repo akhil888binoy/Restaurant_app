@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "Restaurants": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "ABC restaurant",
+      "owner": "Alex",
+      "mobile": "+91234456678",
+      "email": "abc@gamil.com",
+      "location": "New Delhi"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "xyz restaurant",
+      "owner": "Alexyzzz",
+      "mobile": "+912098778",
+      "email": "xyz@gamil.com",
+      "location": "Old Delhi"
+    },
+    {
+      "id": 3,
+      "name": "PQR restaurant",
+      "owner": "Raj",
+      "mobile": "+91234456678234",
+      "email": "pqr@gamil.com",
+      "location": "Mumbai"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
