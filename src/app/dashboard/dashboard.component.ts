@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
+  allRestaurants: Restaurant[]=[];
+  displayedColumns: string[] = ['id', 'name', 'owner', 'mobile', 'email', 'location'];
   constructor() { }
 
   ngOnInit(): void {
