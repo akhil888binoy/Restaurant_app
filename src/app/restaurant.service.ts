@@ -14,4 +14,8 @@ export class RestaurantService {
   getAll():Observable<Restaurant[]>{
     return this.http.get<Restaurant[]>("http://localhost:3000/Restaurants");
   }
+  create(payload: Restaurant):Observable<Restaurant[]>{
+      return this.http.post<Restaurant[]>("http://localhost:3000/Restaurants",payload)
+
+  }
 }

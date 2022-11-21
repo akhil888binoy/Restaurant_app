@@ -11,6 +11,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import {HttpClientModule} from '@angular/common/http';
 import {MatTableModule} from '@angular/material/table';
 import { AddRestaurantComponent } from './add-restaurant/add-restaurant.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { AddRestaurantComponent } from './add-restaurant/add-restaurant.componen
     MatIconModule,
     MatButtonModule,
     HttpClientModule,
-    MatTableModule
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
