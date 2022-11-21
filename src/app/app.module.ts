@@ -13,6 +13,8 @@ import {MatTableModule} from '@angular/material/table';
 import { AddRestaurantComponent } from './add-restaurant/add-restaurant.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatCardModule} from '@angular/material/card';
+
 
 
 @NgModule({
@@ -31,7 +33,8 @@ import {MatInputModule} from '@angular/material/input';
     HttpClientModule,
     MatTableModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
