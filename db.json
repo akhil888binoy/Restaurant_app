@@ -23,6 +23,14 @@
       "mobile": "+91234456678234",
       "email": "pqr@gmail.com",
       "location": "Mumbai"
+    },
+    {
+      "id": 4,
+      "name": "new food",
+      "owner": "happy",
+      "mobile": "123456789",
+      "email": "akhil888binoy@gmail.com",
+      "location": "nowhere"
     }
   ]
 }
