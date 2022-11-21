@@ -5,7 +5,7 @@
       "name": "ABC restaurant",
       "owner": "Alex",
       "mobile": "+91234456678",
-      "email": "abc@gamil.com",
+      "email": "abc@gmail.com",
       "location": "New Delhi"
     },
     {
@@ -13,7 +13,7 @@
       "name": "xyz restaurant",
       "owner": "Alexyzzz",
       "mobile": "+912098778",
-      "email": "xyz@gamil.com",
+      "email": "xyz@gmail.com",
       "location": "Old Delhi"
     },
     {
@@ -21,7 +21,7 @@
       "name": "PQR restaurant",
       "owner": "Raj",
       "mobile": "+91234456678234",
-      "email": "pqr@gamil.com",
+      "email": "pqr@gmail.com",
       "location": "Mumbai"
     }
   ]

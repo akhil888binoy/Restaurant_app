@@ -11,7 +11,7 @@ export class RestaurantService {
 
   constructor(private http: HttpClient) { }
 
-  getAll():Observable<Restaurant>{
-    return this.http.get<Restaurant>("http://localhost:3000/Restaurants");
+  getAll():Observable<Restaurant[]>{
+    return this.http.get<Restaurant[]>("http://localhost:3000/Restaurants");
   }
 }
