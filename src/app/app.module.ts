@@ -17,6 +17,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import { EditRestaurantsComponent } from './edit-restaurants/edit-restaurants.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { DeleteRestaurantComponent } from './delete-restaurant/delete-restaurant.component';
 
 
 
@@ -25,7 +26,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     AppComponent,
     DashboardComponent,
     AddRestaurantComponent,
-    EditRestaurantsComponent
+    EditRestaurantsComponent,
+    DeleteRestaurantComponent
   ],
   imports: [
     BrowserModule,

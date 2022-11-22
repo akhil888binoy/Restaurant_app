@@ -47,6 +47,7 @@
              <a [routerLink]="['/edit-restaurants', element.id]">
                  <mat-icon aria-hidden="false" aria-label="Example edit icon" fontIcon="edit">edit</mat-icon>
              </a>
+                 <mat-icon aria-hidden="false" aria-label="Example delete icon" fontIcon="delete" (click)="openDeleteModel(element.id)">delete</mat-icon>
             </td>
         </ng-container>
 
