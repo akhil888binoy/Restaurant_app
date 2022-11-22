@@ -9,7 +9,7 @@ import { RestaurantService } from '../restaurant.service';
 })
 export class DashboardComponent implements OnInit {
   allRestaurants: Restaurant[]= [];
-  displayedColumns: string[] = ['id', 'name', 'owner', 'mobile', 'email', 'location'];
+  displayedColumns: string[] = ['id', 'name', 'owner', 'mobile', 'email', 'location', 'action'];
   constructor(private restaurant: RestaurantService) { }
 
   ngOnInit(): void {
