@@ -24,6 +24,8 @@ export class RestaurantService {
     update(payload:Restaurant):Observable<Restaurant>{
         return this.http.put<Restaurant>(`http://localhost:3000/Restaurants/${payload.id}`, payload);
     }
-
+    delete(id: number){
+        return this.http.delete(`http://localhost:3000/Restaurants/${id}`);
+    }
 }
 

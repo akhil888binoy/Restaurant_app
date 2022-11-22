@@ -16,6 +16,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import { EditRestaurantsComponent } from './edit-restaurants/edit-restaurants.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 
 
@@ -38,7 +39,8 @@ import { EditRestaurantsComponent } from './edit-restaurants/edit-restaurants.co
     MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    FormsModule
+    FormsModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
