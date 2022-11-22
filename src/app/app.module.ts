@@ -15,6 +15,7 @@ import { AddRestaurantComponent } from './add-restaurant/add-restaurant.componen
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
+import { EditRestaurantsComponent } from './edit-restaurants/edit-restaurants.component';
 
 
 
@@ -22,7 +23,8 @@ import {MatCardModule} from '@angular/material/card';
   declarations: [
     AppComponent,
     DashboardComponent,
-    AddRestaurantComponent
+    AddRestaurantComponent,
+    EditRestaurantsComponent
   ],
   imports: [
     BrowserModule,
