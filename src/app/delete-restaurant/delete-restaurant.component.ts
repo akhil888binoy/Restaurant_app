@@ -18,6 +18,6 @@ export class DeleteRestaurantComponent implements OnInit {
       this.rs.delete(this.data.id).subscribe(()=>{
           this.dialogRef.close(this.data.id);
       })
-  }
+  }E
 
 }
