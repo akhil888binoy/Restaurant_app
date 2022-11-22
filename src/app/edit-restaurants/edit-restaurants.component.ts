@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Restaurant } from '../restaurant';
 import { RestaurantService } from '../restaurant.service';
+import { Router , ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-edit-restaurants',
@@ -17,9 +18,10 @@ export class EditRestaurantsComponent implements OnInit {
       location:''
 
     }
-  constructor() { }
+  constructor(private rs:RestaurantService, route:ActivatedRoute) { }
 
   ngOnInit(): void {
+
   }
 
 }
