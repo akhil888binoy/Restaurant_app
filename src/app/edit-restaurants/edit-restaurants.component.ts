@@ -18,10 +18,17 @@ export class EditRestaurantsComponent implements OnInit {
       location:''
 
     }
-  constructor(private rs:RestaurantService, route:ActivatedRoute) { }
+  constructor(private rs:RestaurantService, private route:ActivatedRoute) { }
 
   ngOnInit(): void {
-
+      this.route.paramMap.subscribe((params)=>{
+      let id=Number(params.get('id'))
+  })
+  }
+  getById(id:number){
+      this.rs.getbyId(id).subscribe((data)=>{
+          this.restaurantRecords=data;
+      })
   }
 
 }
