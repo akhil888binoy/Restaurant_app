@@ -2,7 +2,7 @@
   "Restaurants": [
     {
       "id": 1,
-      "name": "ABC restaurant",
+      "name": "ABC ",
       "owner": "Alex",
       "mobile": "+91234456678",
       "email": "abc@gmail.com",

@@ -18,7 +18,9 @@ export class EditRestaurantsComponent implements OnInit {
       location:''
 
     }
-  constructor(private rs:RestaurantService, private route:ActivatedRoute) { }
+  constructor(private rs:RestaurantService,
+               private route:ActivatedRoute,
+              private router: Router) { }
 
   ngOnInit(): void {
       this.route.paramMap.subscribe((params)=>{
@@ -31,5 +33,9 @@ export class EditRestaurantsComponent implements OnInit {
           this.restaurantRecords=data;
       })
   }
-
+  updateRecords(){
+      this.rs.update(this.restaurantRecords).subscribe(()=>{
+          this.router.navigate(['/']);
+      })
+  }
 }
