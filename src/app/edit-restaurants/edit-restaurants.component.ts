@@ -22,7 +22,8 @@ export class EditRestaurantsComponent implements OnInit {
 
   ngOnInit(): void {
       this.route.paramMap.subscribe((params)=>{
-      let id=Number(params.get('id'))
+      let id=Number(params.get('id'));
+      this.getById(id)
   })
   }
   getById(id:number){
